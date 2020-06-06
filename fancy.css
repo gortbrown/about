@@ -23,7 +23,9 @@ margin-bottom:10px;
 }
 
 .twitter-timeline{
-margin: 0 auto;
+margin-left: auto;
+margin-right: auto;
+width: 75%;
 }
 
 #main{
