@@ -1,5 +1,6 @@
 body
 {
+size: relative;
 background-image: url("bg.jpg");
 }
 
@@ -11,6 +12,7 @@ margin-right: auto;
 
 #sub
 {
+size: relative;
 background-color: #003399;
 border-style: solid;
 border-width: 5px;
@@ -29,6 +31,7 @@ width: 75%;
 }
 
 #main{
+size:relative;
 background-color: #003399;
 width: 70%;
 margin: 0 auto;
