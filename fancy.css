@@ -126,6 +126,13 @@ p
 {
 font-family: Arial, sans-serif;
 color: white;
+}
+
+p.blogtext
+{
+font-family: Arial, sans-serif;
+color: white;
+font-style: bold;
 width: 94%;
 left-margin: auto;
 right-margin: auto;
