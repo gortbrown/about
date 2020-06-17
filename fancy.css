@@ -130,6 +130,7 @@ color: white;
 
 p.blogtext
 {
+display: block;
 font-family: Arial, sans-serif;
 color: white;
 font-style: bold;
