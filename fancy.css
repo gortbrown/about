@@ -8,6 +8,7 @@ img{
 width: 25%;
 margin-left: auto;
 margin-right: auto;
+size:relative;
 }
 
 #sub
@@ -41,6 +42,7 @@ li
 {
 font-family: Arial, sans-serif;
 color: white;
+size: relative;
 }
 
 h1
@@ -55,6 +57,7 @@ text-align: center;
 width: 50%;
 margin: 0 auto;
 font-family: Arial, sans-serif;
+size: relative;
 }
 
 h2
@@ -63,12 +66,14 @@ font-size: 40px;
 font-family: Arial, sans-serif;
 color: white;
 text-align: center;
+size: relative;
 }
 
 a
 {
 color: #14fffb;
 background-color: #003399;
+size: relative;
 }
 
 table
@@ -116,6 +121,7 @@ p
 font-family: Arial, sans-serif;
 color: white;
 text-align: center;
+size: relative;
 }
 
 p.blogtext
@@ -129,4 +135,5 @@ font-style: bold;
 width: 94%;
 margin-left: auto;
 margin-right: auto;
+size: relative;
 }
