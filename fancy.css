@@ -5,7 +5,9 @@ background-image: url("bg.jpg");
 }
 
 .profile{
-background: url("me.png") no-repeat cover;
+background-image: url("me.png");
+background-size: 300px 300px;
+background-repeat: no-repeat;
 width: 300px;
 height: 300px;
 margin-left: auto;
@@ -14,7 +16,9 @@ size:relative;
 }
 
 .profile:hover{
- background: url("me2.jpeg") no-repeat cover;
+background-image: url("me2.jpeg");
+background-size: 300px 300px;
+background-repeat: no-repeat;
 }
 
 #sub
