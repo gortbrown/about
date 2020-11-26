@@ -44,12 +44,8 @@ size: relative;
 
 h1
 {
-color: #14fffb;
+color: white;
 font-size: 50px;
-border-style: solid;
-border-top-width: 2px;
-border-bottom-width: 2px;
-border-color: white;
 text-align: center;
 width: 50%;
 margin: 0 auto;
@@ -61,6 +57,10 @@ h2
 {
 font-size: 40px;
 font-family: Arial, sans-serif;
+border-style: solid;
+border-top-width: 2px;
+border-bottom-width: 2px;
+border-color: white;
 color: white;
 text-align: center;
 size: relative;
