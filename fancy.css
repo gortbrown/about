@@ -4,7 +4,7 @@ size: relative;
 background-image: url("bg.jpg");
 }
 
-img{
+.profile{
 width: 25%;
 margin-left: auto;
 margin-right: auto;
