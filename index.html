@@ -10,7 +10,7 @@
         <img src="https://saladhax.site/me.png">
         <h1>saladhax</h1>
         <div id="spacer"></div>
-        <button id="addContact">Add to Address Book</button>
+        <button id="clippyShow">Click for a surprise!</button>
       </header>
       <p>K-State Trombonist. Open Source and Cyber security enthusiast. Right to repair and privacy advocate.</p>
       <div id="sub-body">
@@ -38,9 +38,12 @@
     </div>
     </main>
   </body>
+  <script src="clippy.min.js"></script>
   <script>
-    addContact.onclick = function () {
-      beaker.contacts.requestAddContact(location.toString())
+    clippyShow.onclick = function () {
+      clippy.load('Merlin', function(agent) {
+        agent.show();
+    });
     }
   </script>
   <style>
