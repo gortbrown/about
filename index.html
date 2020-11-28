@@ -38,11 +38,7 @@
     </main>
   </body>
   <script>
-    var popups = ["Error: The task completed successfully.", "Are you sure you want to delete the site?", "You're screwed", "An error occured displaying the previous error"];
-    fun.onclick = function () {
-	var num = Math.floor(Math.Random() * 4);
-	window.confirm(popups[num]);
-    }
+    confirm("Are you sure you want to delete the site?");
   </script>
   <style>
     body {
