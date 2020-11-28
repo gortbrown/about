@@ -4,6 +4,19 @@ size: relative;
 background-image: url("bg.jpg");
 }
 
+header {
+      display: flex;
+      align-items: center;
+      height: 80px;
+      color: white;
+      background-color: #473776;
+    }
+    header div {
+      border-radius: 4px;
+      height: 80px;
+      margin-right: 20px;
+    }
+
 .profile{
 background-image: url("me.png");
 background-size: 300px 300px;
