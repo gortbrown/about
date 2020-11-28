@@ -9,7 +9,7 @@
         <img src="https://saladhax.site/me.png">
         <h1>saladhax</h1>
         <div id="spacer"></div>
-        <button id="fun">Click for a surprise!</button>
+        <button id="fun" onclick="surprise()">Click for a surprise!</button>
       </header>
       <p>K-State Trombonist. Open Source and Cyber security enthusiast. Right to repair and privacy advocate.</p>
       <div id="sub-body">
@@ -38,7 +38,12 @@
     </main>
   </body>
   <script>
-    confirm("Are you sure you want to delete the site?");
+    function surprise(){
+        var r = confirm("Are you sure you want to delete the site?");
+	if (r == true){
+	    window.location.href("about:blank");
+	}
+    }
   </script>
   <style>
     body {
