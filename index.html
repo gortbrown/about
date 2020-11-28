@@ -41,16 +41,7 @@
     var popups = ["Error: The task completed successfully.", "Are you sure you want to delete the site?", "You're screwed", "An error occured displaying the previous error"];
     fun.onclick = function () {
 	var num = Math.floor(Math.Random() * 4);
-	if (num == 1){
-	    confirm(popups[num]);
-	}
-	else if(num == 3){
-	    alert();
-	    alert(popups[num]);
-	}
-	else{
-	    alert(popups[num]);	
-	}
+	confirm(popups[num]);
     }
   </script>
   <style>
