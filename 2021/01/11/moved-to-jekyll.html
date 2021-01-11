@@ -1,70 +1,37 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!doctype html>
 <html>
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-	<title></title>
-	<meta name="generator" content="LibreOffice 7.0.3.1 (Linux)"/>
-	<meta name="created" content="2021-01-11T14:05:00.622794376"/>
-	<meta name="changed" content="2021-01-11T14:28:29.011298319"/>
-	<style type="text/css">
-		@page { size: 8.5in 11in; margin: 0.79in }
-		p { margin-bottom: 0.1in; line-height: 115%; background: transparent }
-		a:link { color: #000080; so-language: zxx; text-decoration: underline }
-	</style>
-</head>
-<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><p style="margin-bottom: 0in; line-height: 100%">
----</p>
-<p style="margin-bottom: 0in; line-height: 100%">layout: post</p>
-<p style="margin-bottom: 0in; line-height: 100%">author: Garrett
-Brown</p>
-<p style="margin-bottom: 0in; line-height: 100%">title: Rewriting my
-blog in Jekyll</p>
-<p style="margin-bottom: 0in; line-height: 100%">---</p>
-<p style="margin-bottom: 0in; line-height: 100%">I’ve used a few
-different services for my blogs over the years. I had a tech blog
-back in early high school that I made with Weebly, then when I
-created the blog I have now about half a year ago, I just created
-html files that I would upload to my site. Needless to say, this got
-a bit tedious having to copy an html file, rewrite certain parts,
-then upload it, so I moved my blog over to &lt;a
-href=<a href="https://wordsmith.social/">https://wordsmith.social</a>&gt;WordSmith&lt;/a&gt;.
-This was working out well for a while! I really liked WordSmith. But
-then I decided to redesign my website, as I was tired of the old 90s
-aesthetic, and I was bored due to the fact that I am on winter break.
-So while redesigning the site, I decided to try Jekyll for the heck
-of it. 
-</p>
-<p style="margin-bottom: 0in; line-height: 100%"><br/>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/jpg" href="/favicon.png" />
+    <link rel="stylesheet" href="/simple.css">
+    <title>Rewriting my blog in Jekyll</title>
+  </head>
+  <header style="text-align: center;">
+    <h1><img src=/favicon.png style="height: 35px; bottom: 0;">Saladhax</h1>
+    <p>Hacking your salads since 2018</p>
+    <nav>
+      <a href="/index.html">🗿 Home</a>
+      <a href="/about.html"><img src=/emoji.png style="height: 1rem;"> About</a>
+      <a href="/blog.html">🗒️ Blog</a>
+      <a href="https://gitlab.com/saladhax">⌨️ GitLab</a>
+      <a href="https://lbry.tv/@saladhax:0">🎥 Videos</a>
+    </nav>
+<div id="spacer"></div>
+  </header>
+  <body>
+    <div style="width:50%; margin: 0 auto;" >
+<h1 style="text-align: center;">Rewriting my blog in Jekyll</h1>
+<p>11 Jan 2021 - Garrett Brown</p>
 
-</p>
-<p style="margin-bottom: 0in; line-height: 100%">At first, things
-were a bit odd. I didn’t quite know how to port my current site
-over. But after combing through the documentation, I finally got the
-gist of it. I created the layout files for the site (which make
-changing things across all of the pages SO much easier), and all of
-the different pages. Then I worked on figuring out the actual
-blogging part of it. This was pretty easy as well. I just created a
-new layout file for blog posts, and ported over all of my old posts
-from WordSmith. This part was a bit harder, since the importer tool
-that worked with my site wouldn’t run, so I did it all manually.
-This wasn’t too hard since it was just a matter of copying the
-content over and pointing the post’s html file to the post layout.
-Then, I wrote my first post on it. It was pretty easy to use! I feel
-it strikes a good balance of ease and fun, since I can host the blog
-on my own actual site, and not have to deal with the hassle I dealt
-with before.  I was even able to make some changes that made things
-better after reading the &lt;a
-href=”https://kevq.uk/how-to-build-jekyll-site-simple-css/”&gt;awesome
-article&lt;/a&gt; Kev Quirk wrote about making a Jekyll site with his
-&lt;a href=simplecss.org&gt;simple.css&lt;/a&gt; framework (which is
-what I use for the style of the site) like adding more to my footer,
-or adding Jekyll’s sitemap plugin for better compatibility with
-search engines. I think I can easily say that I’ve found a blogging
-platform that I am happy with!</p>
-<p style="margin-bottom: 0in; line-height: 100%"><br/>
+I’ve used a few different services for my blogs over the years. I had a tech blog back in early high school that I made with Weebly, then when I created the blog I have now about half a year ago, I just created html files that I would upload to my site. Needless to say, this got a bit tedious having to copy an html file, rewrite certain parts, then upload it, so I moved my blog over to <a href=https://wordsmith.social>WordSmith</a>. This was working out well for a while! I really liked WordSmith. But then I decided to redesign my website, as I was tired of the old 90s aesthetic, and I was bored due to the fact that I am on winter break. So while redesigning the site, I decided to try Jekyll for the heck of it. 
 
-</p>
-<p style="margin-bottom: 0in; line-height: 100%">This is post 16 of
-&lt;a href <a href="https://100daystooffload.com/">https://100daystooffload.com</a>&gt;#100daystooffload&lt;/a&gt;</p>
-</body>
+At first, things were a bit odd. I didn’t quite know how to port my current site over. But after combing through the documentation, I finally got the gist of it. I created the layout files for the site (which make changing things across all of the pages SO much easier), and all of the different pages. Then I worked on figuring out the actual blogging part of it. This was pretty easy as well. I just created a new layout file for blog posts, and ported over all of my old posts from WordSmith. This part was a bit harder, since the importer tool that worked with my site wouldn’t run, so I did it all manually. This wasn’t too hard since it was just a matter of copying the content over and pointing the post’s html file to the post layout. Then, I wrote my first post on it. It was pretty easy to use! I feel it strikes a good balance of ease and fun, since I can host the blog on my own actual site, and not have to deal with the hassle I dealt with before.  I was even able to make some changes that made things better after reading the <a href=”https://kevq.uk/how-to-build-jekyll-site-simple-css/”>awesome article</a> Kev Quirk wrote about making a Jekyll site with his <a href=simplecss.org>simple.css</a> framework (which is what I use for the style of the site) like adding more to my footer, or adding Jekyll’s sitemap plugin for better compatibility with search engines. I think I can easily say that I’ve found a blogging platform that I am happy with!
+
+This is post 16 of <a href https://100daystooffload.com>#100daystooffload</a>
+</div>
+  </body>
+  <footer style="text-align:center; align-items: center;">
+    <p>Powered by <a href="https://jekyllrb.com">Jekyll</a> and styled with <a href="https://simplecss.org">simple.css</a></p>
+    <a href="https://512kb.club"><img src="https://512kb.club/images/green-team.svg" /></a>
+  </footer>
 </html>
