@@ -11,8 +11,8 @@
  --text: #ffffff;
     --text-light: #ffffff;
     --border: #ffffff;
-    --accent: #9a79fa;
-    --accent-light: #FFECB3;
+    --accent: #fff;
+    --accent-light: #fff;
     --code: #F06292;
 }
 
@@ -24,8 +24,8 @@
  --text: #ffffff;
     --text-light: #ffffff;
     --border: #ffffff;
-    --accent: #9a79fa;
-    --accent-light: #FFECB3;
+    --accent: #fff;
+    --accent-light: #fff;
     --code: #F06292;
   }
 
