@@ -60,7 +60,6 @@ main {
 header {
 	background: var(--bg);
 	border-bottom: 1px solid var(--border);
-  padding: 1.5rem 15rem;
   margin-bottom: 3rem;
 }
 
