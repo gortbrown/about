@@ -6,8 +6,8 @@
   --mono-font: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 
   /* Default (light) theme */
-  --bg: #004961;
-  --accent-bg: #0084B0;
+  --bg: #3d045c;
+  --accent-bg: #9a00ed;
  --text: #ffffff;
     --text-light: #ffffff;
     --border: #ffffff;
@@ -19,8 +19,8 @@
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
   :root {
-   --bg: #004961;
-  --accent-bg: #0084B0;
+   --bg: #3d045c;
+  --accent-bg: #9a00ed;
  --text: #ffffff;
     --text-light: #ffffff;
     --border: #ffffff;
